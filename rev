@@ -1,0 +1,8 @@
+#1)revese the string and tha number(python):
+  def rev(s):
+    str=""
+    for i in s:
+        str=i+str
+    return str
+s=input("enter the string:")
+print(rev(s))
